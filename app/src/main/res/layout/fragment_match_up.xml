@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mindorks.placeholderview.InfinitePlaceHolderView
+        android:id="@+id/lst_match_up"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/btn_new_matchup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="NEW MATCH UP"
+        android:textColor="@android:color/white"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_add"/>
+
+</RelativeLayout>
